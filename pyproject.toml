@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projeto05-analises-prediticas"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+prophet = "^1.1.5"
+yfinance = "^0.2.40"
+plotly = "^5.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
